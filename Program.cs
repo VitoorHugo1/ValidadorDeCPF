@@ -26,7 +26,7 @@
 
             cpf = cpf.Replace(".", "").Replace("-", "");
 
-            // Verifica se o CPF tem uma quantidade de caracteres diferente de onze
+            
             if (cpf.Length != 11)
                 return false;
 

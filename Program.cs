@@ -19,7 +19,7 @@
 
         public static bool ValidarCPF(string cpf)
         {
-            // Verifica se o valor digitado é nulo ou vazio
+
             if (string.IsNullOrEmpty(cpf))
                 return false;
 

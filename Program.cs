@@ -23,7 +23,7 @@
             if (string.IsNullOrEmpty(cpf))
                 return false;
 
-            // Ignora os pontos e traços contidos no cpf digitado
+
             cpf = cpf.Replace(".", "").Replace("-", "");
 
             // Verifica se o CPF tem uma quantidade de caracteres diferente de onze

@@ -30,7 +30,7 @@
             if (cpf.Length != 11)
                 return false;
 
-            // Verifica se todos os caracteres do CPF são dígitos
+      
             if (!cpf.All(char.IsDigit))
                 return false;
 

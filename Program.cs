@@ -16,27 +16,23 @@
                 Console.WriteLine($"O CPF " + cpf + " é inválido!");
             }
         }
-
+        
         public static bool ValidarCPF(string cpf)
         {
 
             if (string.IsNullOrEmpty(cpf))
                 return false;
 
-
             cpf = cpf.Replace(".", "").Replace("-", "");
-
-            
+    
             if (cpf.Length != 11)
                 return false;
 
       
             if (!cpf.All(char.IsDigit))
                 return false;
-
             
             var cpfArray = cpf.ToCharArray();
-
 
             var peso = 10;
             var soma = 0;
@@ -52,7 +48,6 @@
 
             if ((cpfArray[9] - '0') != resto)
                 return false;
-
 
             peso = 11;
             soma = 0;

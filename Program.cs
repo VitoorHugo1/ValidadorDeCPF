@@ -34,7 +34,7 @@
             if (!cpf.All(char.IsDigit))
                 return false;
 
-            // Transforma os valores da variável CPF em um array
+            
             var cpfArray = cpf.ToCharArray();
 
             // Primeira Parte (Primeiro Dígito Verificador)

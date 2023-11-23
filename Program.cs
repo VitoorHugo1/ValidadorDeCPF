@@ -53,7 +53,7 @@
             if ((cpfArray[9] - '0') != resto)
                 return false;
 
-            // Segunda Parte (Segundo Dígito Verificador)
+
             peso = 11;
             soma = 0;
 

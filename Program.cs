@@ -37,7 +37,7 @@
             
             var cpfArray = cpf.ToCharArray();
 
-            // Primeira Parte (Primeiro Dígito Verificador)
+
             var peso = 10;
             var soma = 0;
 
